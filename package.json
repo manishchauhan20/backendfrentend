@@ -1,0 +1,16 @@
+{
+   "name":"Reactdemoproject",
+   "version":"1.0.0",
+   "main":"index.js",
+  
+    "dependencies": {
+      "concurrently": "^9.0.1",
+      "nodemon": "^3.1.7"
+    },
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run frantend\"",
+      "server":"cd backend && nodemon index.js",
+      "frantend":"cd frantend && npm run dev"
+    }
+  
+}

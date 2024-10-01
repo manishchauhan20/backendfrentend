@@ -1,0 +1,4 @@
+# .gitignore
+/backend/node_modules/
+/frantend/node_modules/
+/node_modules/
